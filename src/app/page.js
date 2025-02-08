@@ -93,9 +93,9 @@ export default function Home() {
       <div className="relative pt-24 pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-pink-50 via-white to-purple-50 opacity-50 -z-10"></div>
         
-        <div className="max-w-7xl mx-auto px-6  items-center relative">
+        <div className="max-w-7xl mx-auto px-6 items-center relative">
           {/* Left Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 text-center">
             <div className="inline-flex items-center bg-pink-100 text-pink-700 px-4 py-2 rounded-full">
               <CheckCircle className="w-5 h-5 mr-2 text-pink-500" />
               Impulsa tu Carrera en Belleza
@@ -108,7 +108,7 @@ export default function Home() {
               </span>
             </h1>
             
-            <p className="text-xl text-gray-600 max-w-md">
+            <p className="text-xl text-gray-600 max-w-md mx-auto">
               Conectamos profesionales de belleza con las mejores oportunidades. Tu talento, nuestro compromiso.
             </p>
             
@@ -127,7 +127,7 @@ export default function Home() {
                 </button>
               </div> */}
               
-              <div className="flex flex-wrap gap-6 pt-4">
+              <div className="flex flex-wrap gap-6 pt-4 justify-center">
                 <div className="flex items-center gap-3">
                   <Users className="w-6 h-6 text-pink-500" />
                   <div>
